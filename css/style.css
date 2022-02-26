@@ -1,0 +1,372 @@
+:root{
+    --maindanger:   #D90000;
+    --mainwhite:    #ffffff;
+    --emailbgcolor: #F3F3F7;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    font-family: 'Montserrat', sans-serif;}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    font-family: 'Montserrat', sans-serif;}
+.titul{
+    position: relative;
+    margin-top: 120px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 70px auto;
+    margin-top: 50px;
+}
+.titul h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.titul p{
+    position: absolute;
+    right: -35%;
+    top: 20px;
+    font-weight: 400;
+    font-size: 10px;
+    transform: rotate(-90deg);    
+}
+.name-class{
+    width: 80%;
+    height: auto;
+    margin: 40px auto;
+}
+.name-class ul{
+    display: flex;
+    justify-content: space-between;
+}
+.name-class li{
+    list-style: none;
+    margin-left: 50px;
+}
+.name-class a{
+    font-size: 18px;
+    color: black;
+}
+.name-class a {
+    text-decoration: none;
+    background-image: linear-gradient(#D90000, #D90000);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .5s;
+}
+
+.name-class a:hover {
+    background-size: 100% 2px;
+}
+.name-class hr{
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.f-sector{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.f-s-left{
+    width: 100%;
+    margin-right: 20px;
+}
+.f-s-menu-1{
+    position: relative;
+}
+.f-s-m-text{
+    position: absolute;
+    left: 13%;
+    top: 40%;
+    width: 60%;
+    color: white;
+}
+.f-s-m-text p{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-bottom: -17px;
+}
+.f-s-m-text h3{
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+.f-s-m-text button{
+    width: 200px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 1px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.f-s-menu-2 {
+    position: relative;
+}
+.f-s-menu-2 .f-s-m-text-2{
+    position: absolute;
+    left: 13%;
+    top: 35%;
+    width: 70%;
+    color: white;
+}
+.f-s-m-text-2 h3{
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.f-s-m-text-2 button{
+    width: 200px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 1px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.f-s-menu-3 {
+    position: relative;
+    margin-top: 10px;
+}
+.f-s-m-text-3{
+    position: absolute;
+    left: 13%;
+    top: 35%;
+    width: 70%;
+    color: white;
+}
+.f-s-m-text-3 h3{
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.f-s-m-text-3 button{
+    width: 200px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 1px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#sec-sector{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 120px;
+}
+.name-sec {
+    width: 246px;
+    height: 38px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    background: #D90000;
+    border-radius: 60px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 7px;
+    font-weight: 400;
+
+}
+.s-s-menus{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.s-s-left{
+    margin-right: 50px;
+}
+.s-s-r-top img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#sec-sector .vverx {
+    position: absolute;
+    right: -40px;
+    bottom: 40px;
+    text-decoration: none !important;
+    margin-right: 10%;
+    transform: rotate(-90deg);
+    color: black;
+}
+#sec-sector .vverx i{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#email{
+    width: 100%;
+    height: 320px;
+    background-color: var(--emailbgcolor);
+    text-align: center;
+    margin: 100px auto;
+    padding-top: 94px;
+}
+#email h3{
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+}
+#email input{
+    width: 350px;
+    height: 50px;
+    padding-left: 19px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9A9A9A;
+    margin-top: 30px;
+}
+#email button{
+    width: 200px;
+    height: 50px;
+    background-color: #1A1A1A;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#old{
+    width: 100%;
+    height: 80vh;
+}
+.old-menus{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+.old-m-image{
+    margin-right: 50px;
+    font-weight: 500;
+font-size: 16px;
+text-transform: uppercase;
+color: #000000;
+}
+.old-m-image img {
+    margin-bottom: 13px;
+}
+#architect-news{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    /* text-align: center; */
+}
+#architect-news img{
+    width: 100%;
+    height: auto;
+}
+.archiv{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    width: 55%;
+}
+.archiv h3{
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 246px;
+    height: 38px;
+    background: #D90000;
+    border-radius: 60px;
+    padding-top: 7px;
+    font-weight: 400;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+.archiv h2{
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+
+}
+.archiv h2 span{
+    font-weight: 500;
+}
+.archiv button{
+    width: 200px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #FFFFFF;
+    border-radius: 1px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#email-2{
+    width: 100%;
+    height: 320px;
+    background-color: var(--mainwhite);
+    text-align: center;
+    margin: 100px auto;
+    padding-top: 94px;
+}
+#email-2 h3{
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+}
+#email-2 input{
+    width: 350px;
+    height: 50px;
+    padding-left: 19px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9A9A9A;
+    margin-top: 30px;
+}
+#email-2 button{
+    width: 200px;
+    height: 50px;
+    background-color: #1A1A1A;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+}
